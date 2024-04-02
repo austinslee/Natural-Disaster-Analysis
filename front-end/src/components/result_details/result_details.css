@@ -1,0 +1,46 @@
+.resultDetailsBox {
+    margin: 5%;
+    display: flex;
+    padding: .5em;
+    background-color: #fff;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.disasterDetailsBoxImage {
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 25px;
+    height: 250px;
+    width: 250px;
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.disasterDetailsText2 {
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.disasterDetailsText3 {
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 30px;
+    margin-right: 5px;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.rowResultDetails {
+    flex-direction: row;
+    display: flex;
+}

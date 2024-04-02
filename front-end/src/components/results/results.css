@@ -1,0 +1,210 @@
+.resultsBody{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+   }
+
+.resultsContainer {
+    flex-direction: column;
+}
+
+.resultsTopBar {
+    flex-direction: row;
+    width: 100%;
+    height: 20vh;
+}
+
+.resultsRow {
+    top: 5vh;
+    position: absolute;
+    left: 1%;
+}
+
+.titleBox {
+    display: inline-block;
+    padding: .5em;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: .2em;
+}
+
+.centerRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searcResultsTextRow {
+    align-items: flex-end;    
+}
+
+.searchResultsText {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: 800;
+    letter-spacing: .2em;
+}
+
+.visualizationButtonBox {
+    margin-top: 20px;
+    right: 2%;
+    cursor: pointer;    
+    position: absolute;
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #000 ;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.visualizationButtonBox:hover {background-color: #E3E3E3}
+
+.visualizationButtonBox:active {
+  background-color: #e2e2e2;
+  box-shadow: 0 5px #e1e1e1;
+  transform: translateY(4px);
+}
+
+.visualizationButtonIcon {
+    width: 60px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.wrapper {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0;
+}
+
+.disastersResultsBoxRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.disastersResultsBox {
+    padding: 10px;
+    display: flex;
+    cursor: pointer;    
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    height: 230px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.disasterBoxColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.disasterDetailsText {
+    color: #000;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.disasterBoxImage {
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+    height: 150px;
+    width: 150px;
+    color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.filterBox {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.filterRow {
+    margin-top: 40px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.filterButtonText {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: .1em;
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .TotalEnteries{
+    margin-left: 40px;
+  }
